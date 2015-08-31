@@ -1,6 +1,6 @@
 /*==============================================================================\
-* Copyright(C)2015 Chudai.
-*
+ Copyright(C)2015 Chudai.
+*dfjsdaasjdflajl
 * File name    : test.c
 * Version      : v1.0.0
 * Author       : 初代
