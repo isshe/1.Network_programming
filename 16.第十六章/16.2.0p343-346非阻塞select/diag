@@ -1,0 +1,4 @@
+17:25:23.032899: stdin read 7 bytes from stdin
+17:25:23.033328: sockfd wrote 7 bytes to socket
+17:25:23.033496: sockfd read 7 bytes from socket
+17:25:23.033674: stdout wrote 7 byte to stdout
