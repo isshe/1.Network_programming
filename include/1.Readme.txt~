@@ -1,0 +1,124 @@
+	注意: 所有的声明都在my.h里面!
+		  具体函数声明见my.h文件!
+		  
+增加/删除函数的时候的步骤:
+	1.改Readme文件,
+	2.改头文件中的函数声明,
+	3.改函数定义.
+	4.改Makefile.
+	
+1.my_error.c	包含的函数:
+		err_sys(), 
+		err_dump(), 
+		err_ret(), 
+		err_msg(), 
+		err_quit();
+		hstrerror();
+		
+2.my_socket.c	包含的函数:
+		my_socket(), 
+		my_accept(), 
+		my_bind(), 
+		my_connect(),
+		my_listen(), 
+		my_getpeername(), 
+		my_getsockname(),
+		my_getsockopt(), 
+		my_setsockopt(),
+		
+3.my_malloc.c	包含的函数：
+		my_malloc(), 
+		my_calloc(),
+		
+		
+4.my_process.c	包含的函数:
+		my_fork(), 
+		my_wait(), 
+		my_waitpid(), 
+		
+		
+5.my_ioctl.c	包含的函数:
+		my_ioctl(),
+		
+		
+6.my_time.c		包含的函数:
+		my_gettimeofday(), 
+		
+		
+7.my_readwrite.c包含的函数:
+		my_open(), 
+		my_close(), 
+		my_read(), 
+		my_write(), 
+		
+		
+8.my_fcntl.c	包含的函数:
+		my_fcntl(), 
+		
+9.my_sendrecv.c 包含的函数:
+		my_recv(), 
+		my_recvfrom(), 
+		my_recvmsg(),
+		my_send(), 
+		my_sendto(), 
+		my_sendmsg(),
+		
+10. my_select.c 包含的函数:
+		my_select(), 
+		my_poll();
+		
+11. my_inet.c 包含的函数:
+		my_inet_ntop(), 
+		my_inet_pton()
+		
+12.my_readline.c 包含的函数:
+		my_readline()
+		
+13. my_signal.c 包含的函数:
+		my_signal(),
+		void my_sigaddset; 
+		my_sigdelset(); 
+		my_sigemptyset();
+ 		my_sigfillset(); 
+ 		my_sigismember(); 
+ 		my_sigpending(); 
+ 		my_sigprocmask();
+		
+14. my_stdio.c 包含的函数:
+		my_fgets(), 
+		my_fputs(); 
+		my_fopen(), 
+		my_fdopen(), 
+		my_fclose();
+		
+15. my_writen. 包含的函数:
+		my_writen(); 
+		
+16. my_tcp.c 包含的函数:
+		tcp_connect(), 
+		tcp_listen();
+		
+17. my_sock.c 包含的函数:
+		my_sock_ntop(); 
+		my_sock_ntop_host();
+		
+18. my_udp.c 包含的函数:
+		udp_client(); 
+		udp_connect(); 
+		udp_server();
+		
+19. my_pipe.c包含的函数:
+        my_pipe();
+        
+20.1 mcast_XXX.c 系列之 mcast_join.c:
+        mcast_join();'
+        
+20.2 mcast_XXX.c 系列之 mcast_
+
+
+21. family_to_level.c 包含的函数:
+        family_to_level();          
+
+22. sockfd_to_family.c 包含的函数:
+        sockfd_to_family();
+		
